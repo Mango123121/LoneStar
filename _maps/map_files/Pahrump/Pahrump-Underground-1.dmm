@@ -3481,6 +3481,12 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
 /area/f13/brotherhood/reactor)
+"ceK" = (
+/obj/structure/barricade/concrete,
+/turf/closed/indestructible/f13vaultrusted{
+	invisibility = 100
+	},
+/area/f13/caves)
 "cfe" = (
 /obj/effect/spawner/lootdrop/f13/weapon/melee/random_high,
 /turf/open/floor/f13{
@@ -4634,9 +4640,9 @@
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/bunker)
 "cKV" = (
-/obj/structure/barricade/concrete,
-/obj/structure/barricade/concrete,
-/turf/open/indestructible/ground/inside/subway,
+/turf/closed/indestructible/f13vaultrusted{
+	invisibility = 100
+	},
 /area/f13/caves)
 "cKX" = (
 /obj/structure/bed/old,
@@ -4901,6 +4907,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/f13/carpet,
 /area/f13/bunker)
+"cSr" = (
+/obj/structure/barricade/wooden/strong,
+/obj/structure/timeddoor,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "cSE" = (
 /obj/structure/lattice/catwalk,
 /turf/open/water,
@@ -5538,11 +5549,6 @@
 /obj/structure/grille/broken,
 /turf/open/floor/plating/f13/inside,
 /area/f13/brotherhood/operations)
-"dkQ" = (
-/obj/structure/cargocrate,
-/obj/structure/barricade/concrete,
-/turf/open/indestructible/ground/inside/subway,
-/area/f13/caves)
 "dkT" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/chair/bench,
@@ -9040,11 +9046,13 @@
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/brotherhood/armory)
 "fkJ" = (
-/obj/machinery/button/door{
-	pixel_x = 7;
-	id = 1962
+/obj/machinery/light/small{
+	dir = 4
 	},
-/turf/closed/indestructible/f13vaultrusted,
+/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug,
+/turf/open/floor/f13{
+	icon_state = "redrustyfull"
+	},
 /area/f13/bunker)
 "flq" = (
 /obj/effect/turf_decal/stripes/red/line{
@@ -13409,6 +13417,11 @@
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plasteel/f13/vault_floor/red,
 /area/f13/bunker)
+"hUh" = (
+/obj/structure/barricade/wooden/strong,
+/obj/structure/timeddoor,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/caves)
 "hUn" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/fulltile/store,
@@ -15367,12 +15380,9 @@
 	},
 /area/f13/brotherhood/operations)
 "jqJ" = (
-/obj/machinery/button/door{
-	pixel_x = -7;
-	id = 1962
-	},
+/obj/structure/cargocrate,
 /turf/closed/indestructible/f13vaultrusted,
-/area/f13/bunker)
+/area/f13/caves)
 "jqL" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/simple_door/bunker{
@@ -20616,11 +20626,6 @@
 /obj/item/kirbyplants/photosynthetic,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/medical)
-"nie" = (
-/obj/structure/barricade/wooden/strong,
-/obj/structure/timeddoor,
-/turf/open/indestructible/ground/inside/subway,
-/area/f13/caves)
 "nii" = (
 /obj/structure/flora/rock/jungle{
 	density = 1
@@ -20911,10 +20916,6 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/den)
-"ntv" = (
-/obj/structure/barricade/concrete,
-/turf/open/indestructible/ground/inside/subway,
-/area/f13/caves)
 "ntF" = (
 /obj/effect/spawner/lootdrop/trash,
 /turf/open/indestructible/ground/inside/mountain,
@@ -20995,8 +20996,9 @@
 /obj/structure/cargocrate{
 	icon_state = "cargocrate2"
 	},
-/obj/structure/barricade/concrete,
-/turf/open/indestructible/ground/inside/subway,
+/turf/closed/indestructible/f13vaultrusted{
+	invisibility = 100
+	},
 /area/f13/caves)
 "nwf" = (
 /obj/item/kirbyplants/photosynthetic,
@@ -21009,6 +21011,10 @@
 	spawn_time = 1;
 	pixel_x = -2;
 	pixel_y = 32
+	},
+/obj/machinery/button/door{
+	pixel_x = -23;
+	id = 1962
 	},
 /turf/open/floor/f13{
 	icon_state = "redrustyfull"
@@ -24606,11 +24612,6 @@
 	icon_state = "yellowdirtyfull"
 	},
 /area/f13/den)
-"qaU" = (
-/obj/structure/barricade/wooden/strong,
-/obj/structure/timeddoor,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/caves)
 "qba" = (
 /obj/structure/closet/boxinggloves,
 /obj/machinery/light/small,
@@ -24712,6 +24713,11 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/medical)
+"qdQ" = (
+/turf/open/indestructible/ground/inside/subway{
+	invisibility = null
+	},
+/area/f13/caves)
 "qef" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -26006,8 +26012,9 @@
 "qSi" = (
 /obj/structure/cargocrate,
 /obj/structure/barricade/concrete,
-/obj/structure/barricade/concrete,
-/turf/open/indestructible/ground/inside/subway,
+/turf/closed/indestructible/f13vaultrusted{
+	invisibility = 100
+	},
 /area/f13/caves)
 "qSm" = (
 /obj/effect/spawner/lootdrop/f13/medical/vault/meds,
@@ -31696,6 +31703,15 @@
 /obj/structure/decoration/rag,
 /turf/closed/wall/f13/wood,
 /area/f13/caves)
+"vty" = (
+/obj/machinery/button/door{
+	pixel_x = 25;
+	id = 1962
+	},
+/turf/open/floor/f13{
+	icon_state = "reddirtyfull"
+	},
+/area/f13/bunker)
 "vtz" = (
 /obj/machinery/door/airlock/abandoned,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
@@ -33810,6 +33826,12 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/white,
 /area/f13/bunker)
+"xaK" = (
+/obj/structure/cargocrate,
+/turf/closed/indestructible/f13vaultrusted{
+	invisibility = 100
+	},
+/area/f13/caves)
 "xaX" = (
 /obj/structure/flora/junglebush,
 /turf/open/indestructible/ground/inside/mountain,
@@ -38882,7 +38904,7 @@ eLE
 eLE
 eLE
 cJH
-fkJ
+cJH
 cJH
 uco
 qju
@@ -40427,8 +40449,8 @@ cJH
 qju
 eBg
 cJH
-xJE
-gyW
+vty
+fkJ
 qju
 xgq
 cJH
@@ -40684,7 +40706,7 @@ jQz
 eBg
 cJH
 cJH
-jqJ
+cJH
 ylN
 ctG
 nGm
@@ -95011,9 +95033,9 @@ nmy
 nmy
 nmy
 nmy
-qaU
-nie
-qaU
+cSr
+hUh
+cSr
 eLE
 vPg
 vPg
@@ -95244,30 +95266,30 @@ aoj
 vPg
 vPg
 nmy
-hQE
-hQE
-hQE
-hQE
-hQE
-hQE
+nmy
+nmy
+nmy
+nmy
+nmy
+nmy
 gUq
-dkQ
+qSi
 myy
-hQE
-hQE
-hQE
+nmy
+nmy
+nmy
 myy
 myy
 myy
 hOE
 fUf
 fUf
-hQE
-hQE
-hQE
-hQE
-hQE
-hQE
+nmy
+nmy
+nmy
+nmy
+nmy
+nmy
 myy
 xFA
 ygo
@@ -95501,21 +95523,21 @@ vPg
 vPg
 nmy
 nmy
-hQE
-hQE
-hQE
-hQE
+nmy
+nmy
+nmy
+nmy
 fUf
 fUf
-myy
-ntv
+cKV
+ceK
 myy
 hOE
 myy
 myy
 gha
 myy
-qSi
+xaK
 hSh
 myy
 myy
@@ -95757,7 +95779,7 @@ vPg
 vPg
 vPg
 nmy
-hQE
+nmy
 bzQ
 uur
 fiI
@@ -95769,8 +95791,8 @@ myy
 dQl
 hSh
 myy
-gUq
-qSi
+myy
+myy
 myy
 cKV
 hOE
@@ -95779,7 +95801,7 @@ myy
 myy
 myy
 myy
-qSi
+xaK
 myy
 myy
 myy
@@ -96014,7 +96036,7 @@ vPg
 vPg
 vPg
 nmy
-hQE
+nmy
 fiI
 fEq
 cmH
@@ -96027,7 +96049,7 @@ myy
 hSh
 myy
 myy
-cKV
+myy
 elH
 myy
 hOE
@@ -96271,7 +96293,7 @@ vPg
 vPg
 vPg
 nmy
-hQE
+nmy
 fmg
 cYb
 cYb
@@ -96283,8 +96305,8 @@ myy
 myy
 hZW
 myy
-myy
-qSi
+gUq
+xaK
 myy
 myy
 hOE
@@ -96528,7 +96550,7 @@ vPg
 vPg
 vPg
 nmy
-hQE
+nmy
 fmw
 fGW
 rjz
@@ -96785,11 +96807,11 @@ aoj
 aoj
 vPg
 nmy
-hQE
-hQE
-hQE
-hQE
-hQE
+nmy
+nmy
+nmy
+nmy
+nmy
 myy
 myy
 myy
@@ -97042,11 +97064,11 @@ aoj
 aoj
 vPg
 nmy
-hQE
+nmy
 foY
 lhr
 fRK
-hQE
+nmy
 myy
 myy
 myy
@@ -97299,11 +97321,11 @@ vPg
 aoj
 vPg
 nmy
-hQE
+nmy
 fpS
 fHs
 fHi
-hQE
+nmy
 myy
 myy
 myy
@@ -97556,11 +97578,11 @@ vPg
 vPg
 vPg
 nmy
-hQE
+nmy
 fpV
 fHu
 fJQ
-hQE
+nmy
 fUf
 myy
 myy
@@ -97813,11 +97835,11 @@ vPg
 vPg
 vPg
 nmy
-hQE
+nmy
 fRK
 fHC
 fLq
-hQE
+nmy
 myy
 myy
 myy
@@ -98070,11 +98092,11 @@ vPg
 vPg
 vPg
 nmy
-hQE
+nmy
 fwa
 fHC
 fHC
-hQE
+nmy
 myy
 myy
 myy
@@ -98085,7 +98107,7 @@ myy
 myy
 gZR
 myy
-qSi
+jqJ
 hSh
 dDp
 myy
@@ -98327,11 +98349,11 @@ vPg
 vPg
 vPg
 nmy
-hQE
+nmy
 fHC
 fHi
 fLW
-hQE
+nmy
 myy
 myy
 myy
@@ -98584,11 +98606,11 @@ vPg
 vPg
 vPg
 nmy
-hQE
-hQE
-hQE
+nmy
+nmy
+nmy
 fOZ
-hQE
+nmy
 myy
 myy
 myy
@@ -98841,11 +98863,11 @@ vPg
 vPg
 vPg
 nmy
-hQE
+nmy
 mUC
 fHC
 fRK
-hQE
+nmy
 gsS
 myy
 myy
@@ -99098,11 +99120,11 @@ nBp
 vPg
 vPg
 nmy
-hQE
+nmy
 mUC
 fvt
 fHC
-hQE
+nmy
 myy
 myy
 myy
@@ -99124,8 +99146,8 @@ gWJ
 myy
 myy
 myy
-gUq
-gUq
+jqJ
+jqJ
 eLE
 eLE
 eLE
@@ -99355,11 +99377,11 @@ wyY
 aoj
 vPg
 nmy
-hQE
+nmy
 fCl
 fHC
 fHC
-hQE
+nmy
 gpz
 myy
 myy
@@ -99381,8 +99403,8 @@ gWJ
 myy
 myy
 myy
-myy
-myy
+cKV
+cKV
 xVz
 rDS
 xVz
@@ -99612,7 +99634,7 @@ vPg
 aoj
 vPg
 nmy
-hQE
+nmy
 fCx
 uPr
 fHC
@@ -99635,7 +99657,7 @@ gWJ
 myy
 myy
 gWJ
-myy
+qdQ
 myy
 myy
 myy
@@ -99894,7 +99916,7 @@ myy
 gWJ
 myy
 myy
-gUq
+jqJ
 myy
 myy
 vPg
@@ -100151,7 +100173,7 @@ myy
 gWJ
 cWe
 myy
-myy
+cKV
 vPg
 vPg
 vPg

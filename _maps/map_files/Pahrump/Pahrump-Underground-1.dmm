@@ -2755,10 +2755,6 @@
 "bIa" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/lattice/catwalk,
-/obj/structure/handrail/g_central{
-	dir = 4;
-	pixel_x = 20
-	},
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
 "bIh" = (
@@ -4698,14 +4694,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vault1,
 /area/f13/brotherhood/leisure)
-"cLR" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/handrail/g_central{
-	dir = 4;
-	pixel_x = 20
-	},
-/turf/open/indestructible/ground/inside/subway,
-/area/f13/tunnel)
 "cLS" = (
 /obj/effect/decal/remains{
 	icon_state = "remains"
@@ -9046,14 +9034,9 @@
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/brotherhood/armory)
 "fkJ" = (
-/obj/machinery/light/small{
-	dir = 4
-	},
-/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug,
-/turf/open/floor/f13{
-	icon_state = "redrustyfull"
-	},
-/area/f13/bunker)
+/obj/structure/cargocrate,
+/turf/closed/indestructible/f13vaultrusted,
+/area/f13/caves)
 "flq" = (
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 4
@@ -15380,8 +15363,9 @@
 	},
 /area/f13/brotherhood/operations)
 "jqJ" = (
-/obj/structure/cargocrate,
-/turf/closed/indestructible/f13vaultrusted,
+/turf/open/indestructible/ground/inside/subway{
+	invisibility = null
+	},
 /area/f13/caves)
 "jqL" = (
 /obj/effect/decal/cleanable/dirt,
@@ -16865,6 +16849,15 @@
 	icon_state = "engine"
 	},
 /area/f13/brotherhood/mining)
+"kuA" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug,
+/turf/open/floor/f13{
+	icon_state = "redrustyfull"
+	},
+/area/f13/bunker)
 "kuM" = (
 /obj/structure/nest/fireant{
 	max_mobs = 4;
@@ -24713,11 +24706,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/medical)
-"qdQ" = (
-/turf/open/indestructible/ground/inside/subway{
-	invisibility = null
-	},
-/area/f13/caves)
 "qef" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -31703,15 +31691,6 @@
 /obj/structure/decoration/rag,
 /turf/closed/wall/f13/wood,
 /area/f13/caves)
-"vty" = (
-/obj/machinery/button/door{
-	pixel_x = 25;
-	id = 1962
-	},
-/turf/open/floor/f13{
-	icon_state = "reddirtyfull"
-	},
-/area/f13/bunker)
 "vtz" = (
 /obj/machinery/door/airlock/abandoned,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
@@ -32236,6 +32215,15 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
+	},
+/turf/open/floor/f13{
+	icon_state = "reddirtyfull"
+	},
+/area/f13/bunker)
+"vPF" = (
+/obj/machinery/button/door{
+	pixel_x = 25;
+	id = 1962
 	},
 /turf/open/floor/f13{
 	icon_state = "reddirtyfull"
@@ -40449,8 +40437,8 @@ cJH
 qju
 eBg
 cJH
-vty
-fkJ
+vPF
+kuA
 qju
 xgq
 cJH
@@ -49021,7 +49009,7 @@ vPg
 vPg
 tur
 aUb
-cLR
+nuA
 bIa
 tur
 jPC
@@ -49277,7 +49265,7 @@ vPg
 vPg
 vPg
 tur
-vXU
+aUb
 weW
 weW
 tur
@@ -98107,7 +98095,7 @@ myy
 myy
 gZR
 myy
-jqJ
+fkJ
 hSh
 dDp
 myy
@@ -99146,8 +99134,8 @@ gWJ
 myy
 myy
 myy
-jqJ
-jqJ
+fkJ
+fkJ
 eLE
 eLE
 eLE
@@ -99657,7 +99645,7 @@ gWJ
 myy
 myy
 gWJ
-qdQ
+jqJ
 myy
 myy
 myy
@@ -99916,7 +99904,7 @@ myy
 gWJ
 myy
 myy
-jqJ
+fkJ
 myy
 myy
 vPg

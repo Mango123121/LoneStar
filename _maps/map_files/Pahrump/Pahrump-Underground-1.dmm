@@ -22624,9 +22624,9 @@
 /turf/open/floor/f13/wood,
 /area/f13/den)
 "ozx" = (
-/obj/structure/nest/raider{
+/obj/structure/nest/raider/melee{
 	max_mobs = 1;
-	spawn_time = 1;
+	pixel_y = -1;
 	pixel_x = 31
 	},
 /turf/open/floor/f13{
